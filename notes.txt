@@ -1,0 +1,9 @@
+rsync -avz ../scraping_occompt root@67.205.132.63:
+rsync -avz root@67.205.132.63:./scraping_occompt ../
+
+rsync -avz ../cache_occompt root@67.205.132.63:/mnt/volume_nyc1_05
+rsync -avz root@67.205.132.63:/mnt/volume_nyc1_05/cache_occompt ../
+
+rsync -avz ../download root@67.205.132.63:/mnt/volume_nyc1_05
+rsync -avz root@67.205.132.63:/mnt/volume_nyc1_05/download ../
+
